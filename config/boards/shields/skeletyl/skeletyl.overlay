@@ -1,9 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h>
 #include "skeletyl.dtsi"
-
-&default_transform {
-	col-offset = <5>;
-};
 
 &kscan0 {
 	col-gpios
@@ -14,4 +9,4 @@
 		, <&pro_micro 7 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 8 GPIO_ACTIVE_HIGH>
 		;
-}
+};
