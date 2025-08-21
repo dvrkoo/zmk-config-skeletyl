@@ -105,7 +105,7 @@
 
             bindings = <
 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0 
-&trans   &trans  &trans   &trans   &trans     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
+&kp IT_BSLH   &kp IT_PIPE  &trans   &trans   &trans     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
 &kp IT_LESS        &kp IT_GREAT        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
             >;
@@ -122,7 +122,7 @@
 
             bindings = <
 &kp IT_EXCL  &kp IT_DQUOT  &kp IT_PND  &kp IT_USD  &kp IT_PERC               &kp IT_AND  &kp IT_FSLH   &kp IT_LPAR  &kp IT_RPAR      &kp IT_EQL  
-&kp IT_PLUS    &kp IT_AST   &kp IT_HASH    &kp IT_TILDE    &kp IT_PIPE       &kp IT_SQUOT  &kp IT_IGRV  &kp IT_LBKT  &kp IT_RBKT  &kp IT_EGRV  
+&kp RIGHT_BRACKET    &kp IT_AST   &kp IT_HASH    &kp IT_TILDE    &kp IT_PIPE       &kp IT_SQUOT  &kp IT_IGRV  &kp IT_LBKT  &kp IT_RBKT  &kp IT_EGRV  
 &trans    &trans  &trans    &trans    &trans                            &kp IT_QUES  &kp IT_CARET   &kp IT_LBRC  &kp IT_RBRC  &kp IT_UGRV
 
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
@@ -150,7 +150,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &bootloader           &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &soft_off                &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans
-&trans  &trans  &trans  &trans  &studio_unlock        &trans  &trans             &trans            &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &studio_unlock        &trans  &trans             &trans            &trans           &trans 
                 &trans  &trans  &ext_power EP_OFF     &trans  &trans             &trans
             >;
         };
