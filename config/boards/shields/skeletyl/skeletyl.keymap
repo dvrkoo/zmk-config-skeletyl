@@ -123,7 +123,7 @@
             bindings = <
 &kp IT_EXCL  &kp IT_DQUOT  &kp IT_PND  &kp IT_USD  &kp IT_PERC               &kp IT_AND  &kp IT_FSLH   &kp IT_LPAR  &kp IT_RPAR      &kp IT_EQL  
 &kp IT_PLUS    &kp IT_AST   &kp IT_HASH    &kp IT_TILDE    &kp IT_PIPE       &kp IT_SQUOT  &kp IT_IGRV  &kp IT_LBKT  &kp IT_RBKT  &kp IT_EGRV  
-&trans    &trans  &trans    &trans    &trans                            &kp IT_QUES  &kp IT_CARET   &kp IT_BRC  &kp IT_RBRC  &kp IT_UGRV
+&trans    &trans  &trans    &trans    &trans                            &kp IT_QUES  &kp IT_CARET   &kp IT_LBRC  &kp IT_RBRC  &kp IT_UGRV
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
